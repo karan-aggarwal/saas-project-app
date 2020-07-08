@@ -1,0 +1,11 @@
+<% if notice %>
+  <div class="alert alert-success">
+    <%= notice %>
+    <a href="#" data-dismiss="alert" class="close">×</a>
+  </div>
+<% elsif alert %>
+  <div class="alert alert-danger">
+    <%= alert %>
+    <a href="#" data-dismiss="alert" class="close">×</a>
+  </div>
+<% end %>
